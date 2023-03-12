@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="main.view.ExchangeForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="450" height="264"/>
+    </constraints>
+    <properties>
+      <font/>
+    </properties>
+    <border type="none">
+      <font/>
+    </border>
+    <children>
+      <component id="1e624" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="From"/>
+        </properties>
+      </component>
+      <component id="69abc" class="javax.swing.JComboBox" binding="destinationCurrencyComboBox">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <model/>
+        </properties>
+      </component>
+      <component id="9ca7b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="To"/>
+        </properties>
+      </component>
+      <component id="5a638" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="amount:"/>
+        </properties>
+      </component>
+      <component id="2c01b" class="javax.swing.JTextField" binding="quantityTextField">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="60" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="0.00"/>
+          <toolTipText value="Wprowadź ilość środka pieniędżnego"/>
+        </properties>
+      </component>
+      <component id="84f96" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="amount:"/>
+        </properties>
+      </component>
+      <component id="8be5f" class="javax.swing.JTextField" binding="resultTextField">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="60" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="0.00"/>
+        </properties>
+      </component>
+      <component id="be26a" class="javax.swing.JComboBox" binding="sourceCurrencyComboBox">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <model/>
+        </properties>
+      </component>
+      <component id="6289d" class="javax.swing.JButton" binding="exchangeButton">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="60" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="20" style="2"/>
+          <text value="Convert"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
