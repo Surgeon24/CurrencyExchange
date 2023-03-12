@@ -37,7 +37,6 @@ public class Currency implements ICurrency{
         Currency currency = (Currency) o;
         return this.code.equals(currency.getCode());
     }
-
     @Override
     public String toString() {
         return name;
