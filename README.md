@@ -1,4 +1,4 @@
-# Currency_exchange
+# Currency Exchange
 ## Description
 Currency converting program. Working both in the console and GUI mode. The project was completed as a test task for Remitly.
 ## How to run the program
